@@ -1,0 +1,56 @@
+paragraph:1
+Researchers have proposed many algorithms for discovering frequent itemsets from a given data set [1,11,14,32,40]. The data set can be static or dynamic. Most algorithms to discover frequent itemsets focus on a static data set. However, static data mining algorithms cannot be applied to a dynamic data set, which dynamically shrinks and expands. The development of sensors and their increasing use in applications has led to a flood of data. Data streams from sensors have become the target of data mining. The properties of data streams are that they are continuous, unbounded, and non-uniformly distributed. Applications such as environment surveillance, stock data analysis, and network traffic analysis need real-time stream data mining to discover knowledge from them. Recent works have studied several applications of real-time data mining, such as non-stationary mining of sensor networks [7], real-time motion trajectory indexing of video [2], real-time anomaly detection over multiple data streams [15,31], and others [35,36,38].
+
+paragraph:2
+On the other hand, data mining methods can be classified according to response time into batch processing [1,11,14,32,40] and real-time processing [3,5,18]. Batch processing methods discover frequent itemsets from static data sets, while real-time methods discover frequent itemsets from dynamic data sets that change (through data insertion, deletion, and updating) over time. Real-time applications in general require frequent itemsets immediately and at any time from a dynamic data set. In particular, if the data set is collected from stream data sources such as sensors, a real-time processing method is preferable to a batch processing method. The main concern of successful stream data mining is how fast we can find frequent itemsets with appropriate memory usage.
+
+paragraph:3
+Continuously generated data streams require a data processing model to extract transactions from them. We can classify stream data mining techniques into three categories based on the window model: landmark [8,23,27,37,41], damped [10], and sliding-window [6,24,29,34]. A landmark model focuses on the data set that is collected from any given time to the current time. A damped model mines frequent itemsets in stream data in which each transaction has a weight that decreases with age. A sliding-window model focuses on the data set that is collected in a fixed time interval (or in a fixed number of transactions) from the current time point. A sliding-window can move whenever a transaction or a batch of transactions is collected. A batch is a collection of a fixed number of transactions.
+
+paragraph:4
+Because of its huge size, all of the data collected from sources such as sensors cannot be saved in memory. In general, to discover the current state of the environmental system, we need only the latest data in the time interval from the current time point. Our algorithm is a real-time data mining algorithm based on a sliding-window and batch-unit move. There are a number of requirements for real-time stream data mining, such as single database scan, efficient representation of the transaction database, and efficient addition and deletion of transactions in a window. Also, an efficient algorithm is required for fast discovery of frequent itemsets from a window. Our algorithm satisfies these requirements. For an efficient representation of transactions, our algorithm makes a base-tree from CanTree [21,22,33], which is similar to FPTree. The difference is that when a new batch arrives, the data items of each transaction in the batch are ordered canonically (or alphabetically), then just added to CanTree. Thus there is no restructuring difference between CanTree and FPTree.
+
+paragraph:5
+To discover frequent itemsets beginning with each data item in CanTree, we propose GTree (Group Tree) as a projection-tree that is constructed from the base-tree. A node of GTree represents a set of nodes that have the same data item in the base-tree (CanTree or parent GTree). Our algorithm, called CanTree-GTree, is very simple and efficient. This is because firstly it sorts the data items of a transaction alphabetically, then just adds them to CanTree. Secondly, it uses GTree to discover frequent itemsets by an efficient algorithm, the construction cost of which is lower than other data structures, such as FPTree and CanTree.
+
+paragraph:6
+The CanTree-GTree algorithm has the following properties:
+
+paragraph:7
+- One DB scan
+
+paragraph:8
+In CanTree, the nodes on each path from the root to a leaf are sorted in canonical order or alphabetical order. When a set of transactions arrives, if the data items of each transaction are sorted, then they can just be added into CanTree. That means that CanTree does not need restructuring. Therefore, one scan is enough to store all transactions to CanTree. One scan of a data stream and no restructuring of a base-tree are important properties for real-time data mining.
+
+paragraph:9
+- Top-down tree traversing
+
+paragraph:10
+FP-growth based algorithms (used in CPSTree [34], CanTree [21]) use a bottom-up tree traversal method to build a projection-tree (or conditional-tree in FP-growth algorithm) for each data item. If transactions have many items, the construction overhead of a projection-tree by bottom-up traversing is high, because all nodes need to be visited, regardless of their frequency in the base-tree. On the other hand, we can improve the performance of a mining algorithm with the top-down traversing method in GTree construction.
+
+paragraph:11
+- Efficient maintenance of transactions in a sliding-window
+
+paragraph:12
+To remove the oldest batch in a sliding-window, CanTree-GTree maintains a table that has the information about the last nodes of transactions in each batch. Using the last node information, it removes the transactions in the oldest batch without any restructuring of CanTree. Also, it just adds the transactions in a new batch to CanTree, without any restructuring phase.
+
+paragraph:13
+- Finding exact and complete frequent itemsets
+
+paragraph:14
+It is very important to find whole frequent itemsets. To reduce the processing cost in real-time data mining, many approximate methods [10,37,39] have been proposed. This has recently also been a trend in the stream data environment. However, it is still important to find complete frequent itemsets for critical applications related to human life, critical facility management or analysis, and prediction for critical events. CanTree-GTree can find complete frequent itemsets.
+
+paragraph:15
+This paper is organized as follows. Chapter 2 describes related works for real-time data mining, while Chapter 3 introduces the CanTree-GTree algorithm in detail. Chapter 4 gives a real-time data mining process for CanTree-GTree algorithm together with an example, and shows the analyses of experimental results for our algorithm against CanTree-CanTree, CanTree-FP-tree, and CPSTree algorithm.
+
+end of line !
+
+DOI:https://doi.org/10.1016/j.ins.2016.06.018
+
+Periodical:Information Sciences
+
+Keywords:Real-time data mining, Frequent itemsets, GTree, CanTree, CPSTree, 
+
+Title:Real-time stream data mining based on CanTree and Gtree
+
+Abstract:We face an increasing need to discover knowledge from data streams in real-time. Real-time stream data mining needs a compact data structure to store transactions in the recent sliding-window by one scan, and an efficient algorithm to discover frequent itemsets from the compact data structure. In this paper, we propose a novel data mining algorithm, called CanTree-GTree, which discovers the complete frequent itemsets from real-time transactions based on sliding-windows. The algorithm uses two data structures: CanTree and GTree. CanTree compactly represents all transactions in a sliding-window by one scan, and serves as a base-tree. The algorithm efficiently maintains the base-tree by adding new transactions and removing old transactions without any reconstruction phases. A novel data structure, called GTree (Group Tree), serves as a projection-tree for each data item. The algorithm traverses each node of the base-tree only once by using a top-down tree traversal method to build the projection-tree, and discovers frequent itemsets by low processing cost. The proposed algorithm is therefore effective for discovering frequent itemsets in real-time stream data. Our performance evaluation experiments with other algorithms based on CPSTree and CanTree-FPTree show that our algorithm outperforms the other algorithms in the synthetic data set by about 35% and 26% of run-time cost, respectively. Also, we confirm that the proposed algorithm shows excellent results on real-world data sets.

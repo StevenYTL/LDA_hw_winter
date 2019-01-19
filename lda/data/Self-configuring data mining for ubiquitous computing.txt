@@ -1,0 +1,35 @@
+paragraph:1
+Ubiquitous computing has emerged as today’s prominent computing paradigm as a result of advances in related technologies, especially, wireless, mobile and sensor technologies coupled with the dissemination of these technologies in prices affordable by the masses. Another important reason for the rise of this computing paradigm is the availability of diverse application areas such as ubiquitous health care systems, intelligent transportation systems and personal recommender systems. Ubiquitous computing defines an environment where resources for computing are spread out rather than centralized; moreover, ubiquitous computing devices are operated most of the time by individuals who are not computer savvy and devices can even lie unattended in the environment. Data mining is an approach to incorporate intelligence into ubiquitous computing. However, data mining also requires high demand of computing resources and often requires domain experts for tuning the process. Therefore, new principles and mechanisms are needed for mining data on a platform consisting of restricted resource devices with versatile context where the expert interaction is not available. In that respect, the essential features of a service providing ubiquitous data mining are resource and context awareness as well as autonomous behavior and adaptability.
+
+paragraph:2
+We address the problem of automatic configuration of the execution of a data mining algorithm in a context and resource aware manner as a first step towards deploying an autonomous ubiquitous data mining service that adapts to changing conditions. It is important to note that the autonomous behavior of a service is a broader concept which along with automatic parameter tuning also involves decisions such as scheduling the service, prioritizing its execution. In this paper:•We propose to extract what we call the behavior model of a data mining algorithm for configuring its parameters and we define formally what constitutes a behavior model in a ubiquitous environment.•We present a solution based on learning from past experiences for future configuration decisions which implies that the configuration decisions can be adapted to changing conditions.•We aim to propose a general-purpose solution so that we impose no restrictions on the types of the algorithm parameters that we configure. On the contrary, it is possible to configure continuous parameters as well as categorical ones.•We analyze an algorithm’s execution conditions against the quality of the acquired results. For the analysis, a combination of multiple quality indicators is considered rather than individual ones; moreover the number of quality indicators may be extensive. Besides, the behavior model classifies execution data on various measurements of quality indicators. Thus, a single behavior model can be used for analysis of several performance criteria on a quality indicator.•We propose to use a taxonomy of quality in order to find the most appropriate behavior model which is balanced in terms of accuracy and specificity of classification.
+
+paragraph:3
+We propose to extract what we call the behavior model of a data mining algorithm for configuring its parameters and we define formally what constitutes a behavior model in a ubiquitous environment.
+
+paragraph:4
+We present a solution based on learning from past experiences for future configuration decisions which implies that the configuration decisions can be adapted to changing conditions.
+
+paragraph:5
+We aim to propose a general-purpose solution so that we impose no restrictions on the types of the algorithm parameters that we configure. On the contrary, it is possible to configure continuous parameters as well as categorical ones.
+
+paragraph:6
+We analyze an algorithm’s execution conditions against the quality of the acquired results. For the analysis, a combination of multiple quality indicators is considered rather than individual ones; moreover the number of quality indicators may be extensive. Besides, the behavior model classifies execution data on various measurements of quality indicators. Thus, a single behavior model can be used for analysis of several performance criteria on a quality indicator.
+
+paragraph:7
+We propose to use a taxonomy of quality in order to find the most appropriate behavior model which is balanced in terms of accuracy and specificity of classification.
+
+paragraph:8
+The rest of the paper is organized as follows: Section 2 is related work. In Section 3 we formulate the problem and present the proposed approach while Section 4 elaborates on a solution by decision tree. In Section 5, we explain the experiment that we performed in order to validate the proposed approach; and finally, Section 6 presents the conclusions and introduces our current work.
+
+end of line !
+
+DOI:https://doi.org/10.1016/j.ins.2013.05.015
+
+Periodical:Information Sciences
+
+Keywords:Data mining, Ubiquitous computing, Decision tree, 
+
+Title:Self-configuring data mining for ubiquitous computing
+
+Abstract:Ubiquitous computing software needs to be autonomous so that essential decisions such as how to configure its particular execution are self-determined. Moreover, data mining serves an important role for ubiquitous computing by providing intelligence to several types of ubiquitous computing applications. Thus, automating ubiquitous data mining is also crucial. We focus on the problem of automatically configuring the execution of a ubiquitous data mining algorithm. In our solution, we generate configuration decisions in a resource aware and context aware manner since the algorithm executes in an environment in which the context often changes and computing resources are often severely limited. We propose to analyze the execution behavior of the data mining algorithm by mining its past executions. By doing so, we discover the effects of resource and context states as well as parameter settings on the data mining quality. We argue that a classification model is appropriate for predicting the behavior of an algorithm’s execution and we concentrate on decision tree classifier. We also define taxonomy on data mining quality so that tradeoff between prediction accuracy and classification specificity of each behavior model that classifies by a different abstraction of quality, is scored for model selection. Behavior model constituents and class label transformations are formally defined and experimental validation of the proposed approach is also performed.

@@ -1,0 +1,35 @@
+paragraph:1
+Tax evasion and tax fraud1 have been a constant concern for tax administrations, especially when pertaining to developing countries (Davia, Coggins, Wideman, & Kastantin, 2000). While it is true that taxes are not the only source of government funding, the fact is that they send a very important signal about the commitment and effectiveness with which the State can carry out its functions and restrict access to other sources of income.
+
+paragraph:2
+In particular, the value added tax (VAT), implemented in over 130 countries at different stages of economic development has become a key component of tax revenues, raising about 25% of the world’s tax revenue (Harrison & Krelove, 2005). In the case of Chile, taxes provide about 75% of the resources from which the State each year pays its expenses and investments, collecting during 2011 a total of USD $41.6 billion dollars.2 VAT represents 45% amounting to USD $18.7 billion dollars and generating over 400 million invoices a year, of which 56% is issued in paper format and 44% in electronic format (Bergman, 2010).
+
+paragraph:3
+The phenomenon of false invoices in respect of VAT is explained by the mechanics of determining the tax payable. When a company receives a false invoice, it simulates a purchase that never existed, thus increasing its tax credit fraudulently and decreasing VAT payment. Also, there is a decrease of payment in the income tax due to increased costs and expenditures declared.
+
+paragraph:4
+The falsity of the document may be material if the physical elements that make up the invoice have been adulterated, or ideological when the materiality of the document is not altered, but the operations recorded in it are adulterated or nonexistent. The latter is more complex and difficult to detect because it involves fictitious transactions in which an audit is required to examine the sales books and corrections, or cross referencing the information with suppliers. Moreover, these cases are more expensive for SII, as they require a greater amount of time dedicated to collecting and testing evidence, which is harder to find.
+
+paragraph:5
+The best known cases of material falsification are the physical adulteration of the document, the use of hanging invoices in which an invoice is counterfeited to impersonate a taxpayer of good behavior, and the use of a double set of tax invoices, which has two same-numbered invoices, but one of which is fictional and for a higher amount. In ideological falsification, invoices are used to register a nonexistent operation or adulterate the contents of an existing operation.
+
+paragraph:6
+According to a method used by the SII to estimate VAT evasion (Schneider & Enste, 2000) resulting from false invoices and other credit enlargements applied in the period 1996–2004, evasion by false invoices has historically represented between 15% and 25% of total VAT evasion, increasing significantly in years of economic crisis. This is why in the crisis of 1998–1999 the participation rate increased to 38%, reaching an amount close to USD $1 billion dollars. This becomes relevant since recently there was a global economic crisis that hit Chile in late 2008 and the middle of 2009, causing an increase in the rate of VAT evasion to 23%, in the amount of evasion of USD $4 billion dollars.
+
+paragraph:7
+It also requires that resources be invested in well-focused monitoring, detecting those taxpayers who have greater compliance risk and not bother or waste time and resources on those who do comply (Slemrod & Yitzhaki, 2002). For this, data mining techniques offer great potential, because they allow the extraction and generation of knowledge from large volumes of data to detect and characterize fraudulent behavior and failure to pay tax, in the end improving the use of resources (Fayyad, Piatestky-Shapiro, & Smyth, 1996).
+
+paragraph:8
+This paper is organized as follows. Section 2 describes how artificial intelligence techniques have facilitated the detection of tax evasion in tax administrations. Section 3 describes the data mining techniques applied. Section 4 describes the type of information used and the main results obtained in the characterization and detection of fraud in the issuance of invoices, and Section 5 presents the main conclusions and future lines of research.
+
+end of line !
+
+DOI:https://doi.org/10.1016/j.eswa.2012.08.051
+
+Periodical:Expert Systems with Applications
+
+Keywords:False invoices, Fraud detection, Data mining, Clustering, Prediction, 
+
+Title:Characterization and detection of taxpayers with false invoices using data mining techniques
+
+Abstract:)) to detect this type of tax crime.

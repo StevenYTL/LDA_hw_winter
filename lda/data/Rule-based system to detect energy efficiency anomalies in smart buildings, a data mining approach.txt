@@ -1,0 +1,68 @@
+paragraph:1
+Nowadays, the growing world energy use has already raised concerns over supply difficulties (Belussi, & Danza, 2012), exhaustion of energy resources and heavy environmental impacts (Pérez-Lombard, Ortiz, & Pout, 2008; Rashid et al., 2011). Worldwide trends in energy consumption in residential, public services and commercial sectors with a total consumption of 56.9% (EIA, 2013), which constitutes 24% of the world's CO2 emission (Day, Jones, & Turton, 2013), are basically focused on improving the Energy Efficiency (EE), based on renewable energy use and systems that minimises the energy consumption.
+
+paragraph:2
+Currently, there are many international organisations sponsoring initiatives to encourage the development of technologies in this area (de Alegría Mancisidor, Díaz de Basurto Uraga, Martínez de Alegría Mancisidor, & Ruiz de Arbulo López, 2009; EEA 225, 2013); International Energy Agency (IEA), U.S. Department of Energy – Energy Information Administration (DOE/EIA), Energy European Commission (EEC), Organism for Economic Co-operation and Development (OECD) have taken steps to facilitate and improve developments in this area with directives like Directive 2012/27/EU on energy efficiency (EU) or Executive Order (E.O.) 13514; Federal Leadership in Environmental, Energy, and Economic Performance; October, 2009(DOE/EIA).
+
+paragraph:3
+The updated technology and cost parameters have possibly contributed to lower electricity consumption. Therefore, EE is rapidly increasing in world energy due to the exhaustion of energy resources and heavy environmental impacts. Substantial opportunities to improve energy efficiency have been expressed by the International Energy Agency (IEA) (DOE/EIA-0383, 2013).
+
+paragraph:4
+The increase of smart cities (Lazaroiu, & Roscia, 2012; Yamagata, & Seya, 2013), smart and green building (Chou, Chua, Ho, & Ooi, 2004; Djevic, & Dimitrijevic, 2009; Singh, & Tiwari, 2010; GhaffarianHoseini, Dahlan, Berardi, GhaffarianHoseini, Makaremi, et al., 2013;Vadiee, & Martin, 2013) this is becoming the beginning of the future building construction trend (GhaffarianHoseini et al., 2013). The advantages of these buildings include a high level of comfort, high power efficiency, and environmental friendliness (Dounis, & Caraiscos, 2009; Day et al., 2013; Martin, Hernandez, & Valmaseda, 2015). Besides, the renewable energy sources utilised as the main power supply of the smart buildings (Omer, 2008; Xia, Zhu, & Lin, 2008; Tsiamitros et al., 2014; Gul & Patidar, 2015) help to reach an environmental friendliness, high-level comfort and power efficiency in buildings. These requirements used to be reached managing an effective control in the building.
+
+paragraph:5
+At the present, current research trends in EE are focused on various scopes. In the last decade, there was considerable research concerning optimisation of EE in buildings (Weng, & Agarwal, 2012). Some trends go from building investment decision (Malatji, Zhang, & Xia, 2013) to building design (Pacheco, Ordóñez, & Martínez, 2012), but the main trend is focused on new technologies applied to smart buildings. In
+Noailly (2012), the impact of environmental innovation technologies to improve EE in general buildings are studied, and (Andrews, & Krogmann, 2009) specifically for commercial buildings. Another trend in EE is based on optimising the energy consumption keeping a high level of well-being for the occupants. In
+Ma, Qin, Salsbury, and Xu (2012), a demand reduction based on an economic slant is proposed. Also, in
+Marinakis, Doukas, Karakosta, and Psarras (2013) the studies are focused on tertiary sector and in large buildings through a simulation system (Colmenar-Santos, Terán de Lober, Borge-Diez, & Castro-Gil, 2013).
+
+paragraph:6
+The increasing sophisticated Building Automation System (BAS) (Marinakis, Karakosta, Doukas, Androulaki, & Psarras, 2013) has become the cornerstone of modern intelligent buildings. Integrating energy supply and demand factors, often known as Demand-Side Management (DSM) has become an important energy efficiency policy concept (Azadeh, Saberi, Ghaderi, Gitiforouz, & Ebrahimipour, 2008). Much of this potential can be captured through policies for the advancement of the implementation of energy management and control systems (EMCS).
+
+paragraph:7
+In EMCS (Haberl, Sparks, & Culp, 1996; Altwies, & Nemet, 2013), one of the most complex problems is the optimal energy management according to real-time environmental variables of the building. The EMCS manages the best energy policies for building in real time with the main goal of keeping the high-level comfort with the minimum power consumption in different operating conditions (Kolokotsa, Kalaitzakis, Antonidakis, & Stavrakakis, 2002; Dounis, & Caraiscos, 2009, Pang, Wetter, Bhattacharya, & Haves, 2012). Thus, at present, research groups works try to solve this problem from different points of view and with different techniques (Nguyen, & Aiello, 2013). Some studies go from basic actions to improve the EE in commercial buildings (Escrivá-Escrivá, 2011) to more sophisticated energy management based on a set of rules integrated in a SCADA based on predictive controller through a cost function system (Figueiredo, & Sá da Costa, 2012). In (Diakaki, Grigoroudis, & Kolokotsa, 2008; Diakaki et al., 2010), a multi-objective model based on a decision maker to improve the EE in buildings through multi-criteria decision analysis techniques are applied. Another proposal is considered in
+Oldewurtel et al. (2012), with a predictive control model joined with a weather forecast that advise how to control HVAC in the smart building. More complex solutions are based on a multi-agent system (MAS). In
+Doukas, Nychtis, and Psarras (2009), the energy consumption and the environment friendless criteria have optimised through a multi-objective model with the purpose of the investment. In
+Klein et al. (2012), the model is based on a Markov Decision Model (MDM). And in
+Yang, and Wan, (2012), an MAS based on building occupant behaviours is employed for an optimisation of energy consumption and maintaining high-level comfort.
+
+paragraph:8
+Other research trends propose EE solutions through knowledge discovery from the data. A data analysis and classification to predict the energy consumption of the building is proposed in (Li, Bowers, & Schnier, 2010). In (Kim, Stumpf, & Kim, 2011; Capozzoli, Lauro, & Khan, 2015), an interesting analysis of energy efficient building design through DM techniques is provided. Also, in
+Yu, Haghighat, Fung, and Zhou (2012), the authors proposed discovering the knowledge based on mining associations between building operational data. However, the analysis of energy consumption at the use stage is very important, and it is obvious that the construction characteristics of the buildings strongly affect consumption during the life cycle of the building. Furthermore, the way in which the facilities are used during the use stage is also very important when determining the efficiency of the building (Yu, Haghighat, Fung, Morofsky, & Yoshino, 2011; Domínguez et al., 2013). Within the current research trends in EE, other similar work done on EE anomalies detection in smart buildings using data mining techniques were not found. Most related papers found were (Li et al., 2010; Figueiredo & Sá da Costa, 2012; Oldewurtel et al., 2012; Yu et al., 2012).
+
+paragraph:9
+Rule-based systems are traditionally useful in energy efficiency, implementing energy management and control systems, even in the new scenarios provided by smart grids (Liu et al., 2010). There are many references about rule-based system which support the energy efficiency optimisation process in different aspects, and some of these references usually are combined with other techniques to improve the accuracy and efficiency of the optimisation. SEMERGY.net (Fenz et al., 2014) proposed a web-based optimisation environment, which supports users in decision-making regarding energy-efficient building designs; this system is based on a rule-based system which uses an ontology of linked building product data.(Wang et al, (2012) proposed a rule-based algorithm for elevator group control, which focuses on design of dispatching rules for energy saving.
+Brooks and Barooah (2014) studied two control-oriented methods of improving energy efficiency in commercial buildings: rule-based, feedback controller that uses real-time occupancy measurements, and model predictive control (MPC). Multi-Agent Systems (MAS) are a technology related with RBS, because each agent implements a rule-based system. In this sense,
+Villar et al. (2009) proposed a real application of an MAS for coordinating the electrical heaters of a building in order to consider the comfort level and the energy efficiency in the building.
+Hurtado et al. (2014) proposed an agent-based control strategy for the operation of buildings, implementing a fuzzy rule based decision making strategy to monitor and control de energy flows in a building. Finally,
+Ryu et al. (2012) proposed a rule model where rules could be dynamically updated according to user feedback and applied to various situations, in order to maintain the energy efficiency and user comfort level.
+
+paragraph:10
+The current work described in this paper is immersed in Project KnoholEM, adhered to FP7 (FP7-285229 KnoholEM). The main contents of Project KnoHolEM are based on an intelligent energy management solution relying on three main elements: knowledge modelling techniques and knowledge base, extended validation on various demonstration objects for the enhancement of the knowledge database, as well as on hardware implementation of the energy management system. Some of the most important objectives of the Project KnoHolEM are a functional energy-oriented building model, a specific building behavioural model completed by a building-specific ontology and a data-mining procedures for real-time detailed energy consumption analysis.
+
+paragraph:11
+The aim of the present paper is to optimise the EE in a smart building, reducing energy consumption, keeping a high degree of comfort, and being environmentally friendly through a Data Mining (DM) approach. This work is focused on detecting EE anomalies in smart buildings. For this purpose, a system of Energy Efficiency Indicators (EEIs) and a Rule-based System is presented. These systems are carried out after a DM process to extract the knowledge hidden in historical building data and EE experts. This knowledge is used in EEIs and a set of “best policies” that help experts to achieve the primary goal. Subsequently, the anomalies detected are corrected through a set of policies that regulate these anomalous behaviours, as shown in Fig. 1. Nowadays the prototype is in test phase, and thanks to the progress made in this field and the results offered, a future goal is to integrate this framework in commercial an EE software called Eugene, owner of ISOTROL Company.
+
+paragraph:12
+Fig. 1. Data Mining Energy Efficiency framework.
+
+paragraph:13
+The paper is organised as follows: in Section 2, the smart building description and data sources are presented. The data sources description is divided into three subsections: indoor sensors, outdoor sensors and finally, energy analysers. In Section 3, a data mining-based DSS to increase the energy efficiency at the building is proposed. It is divided into three subsections: the data pre-processing (cleaning, filtering and transformation), the Energy Efficiency Indicators description, and finally, the Rule-based System to detect anomalies in the smart building. In Section 4, the results of the framework obtained from the smart building are presented. Section 5, has concluding remarks and future research lines are proposed.
+
+paragraph:14
+In the related work, a case of study is proposed. The main goal of this case of study is how to detect EE anomalies in smart building automatically and with high effectiveness. Nowadays, most of the building needs to be analysed by EE experts to on one hand, analyse and understand the EE building behaviour, and on other hand, try to detect EE anomalies.
+
+paragraph:15
+In this case of study a system which is able to analyse the EE behaviours of a building, detect all types of EE inefficiencies and check how of effective is proposed through a DM approach.
+
+end of line !
+
+DOI:https://doi.org/10.1016/j.eswa.2016.03.002
+
+Periodical:Expert Systems with Applications
+
+Keywords:Energy efficiency, Smart building, Energy efficiency indicators, Analytics, Expert System, Decision support system, 
+
+Title:Rule-based system to detect energy efficiency anomalies in smart buildings, a data mining approach
+
+Abstract:The rapidly growing world energy use already has concerns over the exhaustion of energy resources and heavy environmental impacts. As a result of these concerns, a trend of green and smart cities has been increasing. To respond to this increasing trend of smart cities with buildings every time more complex, in this paper we have proposed a new method to solve energy inefficiencies detection problem in smart buildings. This solution is based on a rule-based system developed through data mining techniques and applying the knowledge of energy efficiency experts. A set of useful energy efficiency indicators is also proposed to detect anomalies. The data mining system is developed through the knowledge extracted by a full set of building sensors. So, the results of this process provide a set of rules that are used as a part of a decision support system for the optimisation of energy consumption and the detection of anomalies in smart buildings.

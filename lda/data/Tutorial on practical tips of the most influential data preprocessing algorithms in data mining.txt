@@ -1,0 +1,55 @@
+paragraph:1
+Data preprocessing for Data Mining (DM) [48] focuses on one of the most meaningful issues within the famous Knowledge Discovery from Data process [57,149]. Data compilation is usually a relatively controlled task. Data will likely have inconsistencies, errors, out of range values, impossible data combinations, missing values or most substantially, data is not suitable to start a DM process. In addition, the growing amount of data in current business applications, science, industry and academia, demands to the requirement of more complex mechanisms to analyze it. With data preprocessing, converting the impractical into possible is achievable, adapting the data to accomplish the input requirements of each DM algorithm.
+
+paragraph:2
+The data preprocessing stage can take a considerable amount of processing time [106]. Data preprocessing includes data preparation, compounded by integration, cleaning, normalization and transformation of data; and data reduction tasks, which aim at reducing the complexity of the data, detecting or removing irrelevant and noisy elements from the data through feature selection, instance selection or discretization processes. The outcome expected after a reliable connection of data preprocessing processes is a final data set, which can be contemplated correct and useful for further DM algorithms.
+
+paragraph:3
+In an effort to identify some of the most influential data preprocessing algorithms that have been widely used in the DM community, we enumerate them according to their usage, popularity and extensions proposed in the research community. We are aware that each nominated algorithm should have been widely cited and used by other researchers and practitioners in the field. The selection of the algorithms is based entirely on our criteria and expertise, especially after the composition of a recent book on this topic [48]. The criteria considered are:
+•Usage: the algorithm is frequently used in a previous step of a DM process or it is included in DM software packages.•Referable: it must be described in a publication in the specialized literature.•Popularity: the associated publication is considered as a highly cited one in well-known data bases: Web of Knowledge, Google Scholar, Scopus, etc.•Standardization: the algorithm has been the baseline of inspiration of several modern and hybrid extensions.•Smart: it must somehow incorporate a smart procedure in its definition, for the sake of not including direct and basic mechanisms as algorithms.•Variability: there have been a minimum number of representatives belonging to each data preprocessing family.
+
+paragraph:4
+Usage: the algorithm is frequently used in a previous step of a DM process or it is included in DM software packages.
+
+paragraph:5
+Referable: it must be described in a publication in the specialized literature.
+
+paragraph:6
+Popularity: the associated publication is considered as a highly cited one in well-known data bases: Web of Knowledge, Google Scholar, Scopus, etc.
+
+paragraph:7
+Standardization: the algorithm has been the baseline of inspiration of several modern and hybrid extensions.
+
+paragraph:8
+Smart: it must somehow incorporate a smart procedure in its definition, for the sake of not including direct and basic mechanisms as algorithms.
+
+paragraph:9
+Variability: there have been a minimum number of representatives belonging to each data preprocessing family.
+
+paragraph:10
+From a practical point of view, we will carry out a practical study including numerous tips. It will be divided into two parts:
+•We will include graphical representations of data preprocessed by the techniques reviewed in this tutorial. We will use the banana data set to illustrate most of the selected techniques, as it is a non-linearly separable 2D data set with two classes, often used for this purpose. For the techniques focused on dimensionality reduction (as Feature Selection and Space Transformations), the sonar data set is used instead, as it provides a large amount of features. The effects on the data and a comparison among related techniques for these data sets are thus easily attainable, as the effect on the data is visually depicted for every technique.•We will consider a complex real-world problem from the ECDBL’14 Big Data competition [10,132]. This problem is related to bioinformatics, posing an appropriate scenario to show the importance of correctly applying several preprocessing techniques. In order to do so, we will select one preprocessing technique of each type, and we will combine them in order to solve different problems present in the data, and thus obtaining a benefit in the model obtained by a representative classifier as C4.5. By varying the order in which the preprocessing algorithms are applied and their parameters’ values, five different cases are analyzed, along with the performance obtained by C4.5 in each step. From these five cases the reader will may find useful tips and insights that will help him/her to better understand the behavior and combination of preprocessing techniques.
+
+paragraph:11
+We will include graphical representations of data preprocessed by the techniques reviewed in this tutorial. We will use the banana data set to illustrate most of the selected techniques, as it is a non-linearly separable 2D data set with two classes, often used for this purpose. For the techniques focused on dimensionality reduction (as Feature Selection and Space Transformations), the sonar data set is used instead, as it provides a large amount of features. The effects on the data and a comparison among related techniques for these data sets are thus easily attainable, as the effect on the data is visually depicted for every technique.
+
+paragraph:12
+We will consider a complex real-world problem from the ECDBL’14 Big Data competition [10,132]. This problem is related to bioinformatics, posing an appropriate scenario to show the importance of correctly applying several preprocessing techniques. In order to do so, we will select one preprocessing technique of each type, and we will combine them in order to solve different problems present in the data, and thus obtaining a benefit in the model obtained by a representative classifier as C4.5. By varying the order in which the preprocessing algorithms are applied and their parameters’ values, five different cases are analyzed, along with the performance obtained by C4.5 in each step. From these five cases the reader will may find useful tips and insights that will help him/her to better understand the behavior and combination of preprocessing techniques.
+
+paragraph:13
+The reader may consult and obtain the data sets, figures, results and complementary material in the website associated to this paper.1
+
+paragraph:14
+The rest of the paper is organized according to the data preprocessing families, subfamilies and algorithms nominated. Thus, Section 2 will gather and present the preprocessing algorithms categorized by their type. Section 3 will show the effects of applying the preprocessing techniques with some illustrations, while Section 4 will illustrate the practical usage of the algorithms over a complex real-world data set. Finally, Section 5 will conclude the paper.
+
+end of line !
+
+DOI:https://doi.org/10.1016/j.knosys.2015.12.006
+
+Periodical:Knowledge-Based Systems
+
+Keywords:Data preprocessing, Data reduction, Missing values imputation, Noise filtering, Dimensionality reduction, Instance reduction, Discretization, Data mining, 
+
+Title:Tutorial on practical tips of the most influential data preprocessing algorithms in data mining
+
+Abstract:Data preprocessing is a major and essential stage whose main goal is to obtain final data sets that can be considered correct and useful for further data mining algorithms. This paper summarizes the most influential data preprocessing algorithms according to their usage, popularity and extensions proposed in the specialized literature. For each algorithm, we provide a description, a discussion on its impact, and a review of current and further research on it. These most influential algorithms cover missing values imputation, noise filtering, dimensionality reduction (including feature selection and space transformations), instance reduction (including selection and generation), discretization and treatment of data for imbalanced preprocessing. They constitute all among the most important topics in data preprocessing research and development. This paper emphasizes on the most well-known preprocessing methods and their practical study, selected after a recent, generic book on data preprocessing that does not deepen on them. This manuscript also presents an illustrative study in two sections with different data sets that provide useful tips for the use of preprocessing algorithms. In the first place, we graphically present the effects on two benchmark data sets for the preprocessing methods. The reader may find useful insights on the different characteristics and outcomes generated by them. Secondly, we use a real world problem presented in the ECDBL’2014 Big Data competition to provide a thorough analysis on the application of some preprocessing techniques, their combination and their performance. As a result, five different cases are analyzed, providing tips that may be useful for readers.

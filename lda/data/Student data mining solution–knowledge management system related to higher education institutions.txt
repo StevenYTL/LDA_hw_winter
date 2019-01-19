@@ -1,0 +1,41 @@
+paragraph:1
+In knowledge management process, data mining technique can be used to extract and discover the valuable and meaningful knowledge from a large amount of data. Nowadays, data mining has given a great deal of concern and attention in the information industry and in society as a whole. This technique is an approach that is currently receiving a great attention in data analysis and it has been recognized as a newly emerging analysis tool (Osei-Bryson, 2010; Sinha & Zhao, 2008; Tso & Yau, 2007; Wan & Lei, 2009; Zanakis & Fernandez, 2005; Zhuang, Churilov, Burstein, & Sikaris, 2009; Becerra-Fernandez, Gonzales, & Sabherwal, 2004).
+
+paragraph:2
+In the literature, one may notice that they are many areas which adapted this approach to solve their problems such as in finance, medical, marketing, the stock market, telecommunication, manufacturing, health care and customer relationship. However, the data mining application has not attracted much attention from people in relation to educational systems, despite the majority of HEIs admit, that course’s students success rates are very important for their prestige and senior management of the academic institution. Thus the possibilities to deeply understand the reasons and accurately predict the student success have become very valuable (Dermol & Čater, 2013; Marjetič & Lesjak, 2012; Natek & Lesjak, 2013; Rojko, Lesjak, & Vehovar, 2011; Trunk Širca, Babnik, & Breznik, 2013).
+
+paragraph:3
+OLAP solutions and statistical methods are well established tool to analyze data but data mining enable fresh approach to understand hidden patterns and data prediction. In particular, data mining has turned to be a very popular among researches because many “approachable” standalone or desktop data mining tools are available in the market. From the observation of different tools, one can notice the following as an example: Microsoft Excel, SPSS, Weka, Protégé as Knowledge Acquisition System and Rapid Miner. Some of them (e.g. MS Excel Mining tool) are normally available to HEI’s professor and they can benefit from existing knowledge of the Excel. That is the reason to include it in the research. Weka was choosed among other desktop DM tools because of supporting the data mining analysis in very different way, compared with MS Excel. Moreover, Weka is considered as a very legitimate tool analysis where education management data is involved (Cristóbal, Sebastián, & Enrique, 2008; Romero & Ventura, 2006).
+
+paragraph:4
+HEIs recently promote knowledge management as encouraging data mining environment for their professors and researchers.
+
+paragraph:5
+In the recent years, data mining has been recognized as a contemporary tool for building knowledge management systems (Jashapara, 2011). A knowledge management approach to data mining process, otherwise associated with business intelligence technology, brings some new synergy and added value to data mining solutions (Wang & Wang, 2008). This study was focused on HEI’s knowledge management systems as part of their educational and research work (Baker & Yacef, 2009; Delavari, Somnuk, & Beikzadeh, 2008).
+
+paragraph:6
+Unfortunately most data mining techniques work best with very large samples. Following that, Andonie (2010), reported that some data mining techniques, such as neural networks may not be able to accomplish the learning task (during the training phase) since small datasets cannot provide enough data to fill the gaps between too small samples. As a consequence, several authors concluded that small datasets limit the scope of data mining technique (Yuan & Fine, 1998).
+
+paragraph:7
+In the real-life there are many academic situations, where relatively small data sets are normal, at least from the HEIs point of view. Therefore, the data which is collected on courses that students take is a good example of such situation. Even if the course is attended by a relatively large group of students the relevant data is considered to be a small dataset.
+
+paragraph:8
+Andonie (2010) even suggested that there is no universal optimal solution to the problem of small datasets. So what possibilities are available to the HEIs if they want to explore the success rate of students in various courses using contemporary but widely available data mining tools? Student’s data, available to HEIs is limited and clearly fall into the category of small data set (Table 1). The described approach in this study is very popular and well supported by data mining tools.
+
+paragraph:9
+Table 1. Examples of students data sets (attributes taken are: year of study, Student #, gender, year of birth, employment, status – taken sport course, registration status, Type of study either full-time/part-time, exam condition, points for activity participation, exam points, final points, Final grade out of 10).
+
+paragraph:10
+The research goal is to focus on small student’s data set which is analyzed using data mining approaches, thus trying to answer various HEIs questions, using the student’s courses data and the data mining tools for analysis (which are normally available to average HEIs). For HEIs the most important outcome are relatively reliable students’ success rate prediction and user friendly experience. Bukowitz and Williams (2000) advocate how technology is blurring the distinction between types of knowledge from unknown knowledge to a known one. Their study supports the conceptual model as data mining on student’s data sets which discovered some interesting key influencer and “Final grade” prediction to a chosen course. Moreover, as stated by the authors, small HEIs data sets can be used for analysis with data mining techniques. In these cases specific algorithms can be used to overcome the limit of data which is often not the case since most algorithms are working on a large scale databases (Wu et al., 2008).
+
+end of line !
+
+DOI:https://doi.org/10.1016/j.eswa.2014.04.024
+
+Periodical:Expert Systems with Applications
+
+Keywords:Data mining, Knowledge management system, Student’s success rate, Data mining for small data set, Higher education institution, Educational data mining, 
+
+Title:Student data mining solution–knowledge management system related to higher education institutions
+
+Abstract:Higher education institutions (HEIs) are often curious whether students will be successful or not during their study. Before or during their courses the academic institutions try to estimate the percentage of successful students. But is it possible to predict the success rate of students enrolled in their courses? Are there any specific student characteristics, which can be associated with the student success rate? Is there any relevant student data available to HEIs on the basis of which they could predict the student success rate? The answers to the above research questions can generally be obtained using data mining tools. Unfortunately, data mining algorithms work best with large data sets, while student data, available to HEIs, related to courses are limited and falls into the category of small data sets. Thus, the study focuses on data mining for small student data sets and aims to answer the above research questions by comparing two different data mining tools. The conclusions of this study are very promising and will encourage HEIs to incorporate data mining tools as an important part of their higher education knowledge management systems.

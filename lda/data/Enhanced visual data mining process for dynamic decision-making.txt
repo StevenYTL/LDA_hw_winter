@@ -1,0 +1,26 @@
+paragraph:1
+In today's real-time applications, temporal data is produced at increasing rates. In this context, dynamic decision-making, visualization and data mining are important trends and acquire a more and more significant place in research works [5,9,28,29,45]. As a matter of fact, visualization and data mining integration in the dynamic Decision Support Systems (DSS) reduces subjectivity and provides a new interesting visual knowledge for decision-makers [49,50].
+
+paragraph:2
+Visualization and data mining technologies must closely be associated to each other providing the visual data-mining field [32,45,50]. In fact, the contribution of data mining is in the useful patterns identification to provide support for dynamic predictions to be integrated into the decision-making process for decision planning [51]. While the data mining methods offer expertise, temporal visualization assists data miners in understanding the different levels of hidden information in large-scale temporal data [28,40,71].
+
+paragraph:3
+To design and develop visualization techniques, we must follow different steps of the visualization process with regards to Human computer interaction. It is the process of generating views and producing appropriate interaction techniques for a specific data set. Indeed, the research on visualization should not stop at designing and generating representations but should also study how visualization affects decision-maker thinking, comparing and reasoning [44], by referring to a cognitive model, such as those proposed by Rasmussen [55] or one of its variants [27,36]. The idea is to support visual data mining based decision-making in dynamic situations by making use of temporal and cognitive modelling in the visual data mining process.
+
+paragraph:4
+Among the application areas, the medical decision-making is a very important field of research [3,56], and we have noticed that numerous useful visual intelligent techniques have been designed in this area (see for instance [2,4,35,44]). In this paper, we focus on the dynamic decision-making for the fight against Nosocomial Infections (NI) in the hospital intensive care units where a large volume of temporal data is daily generated. Such dynamic data sets have important potential in describing changes in the patterns of appearance of nosocomial infections. One of the popular data mining and knowledge discovery strategies is the association rules technique that represents knowledge in the form of relations between variables.
+
+paragraph:5
+This paper is organized as follows. In Section 2, we briefly describe the theoretical background of our research including visual data mining, decision-making and visualization processes. In Section 3, we show how the temporal visualization process can be adapted under the cognitive considerations (in relation with the user perception abilities) and the visual data mining tasks. Our adapted visualization process is illustrated in Section 4 by considering the modelling of the visual temporal association rules that we have developed for the fight against nosocomial infections in the intensive care units. Then Section 5 presents the results of the evaluation study of our application. And finally, Section 6 outlines our conclusion and several research perspectives.
+
+end of line !
+
+DOI:https://doi.org/10.1016/j.knosys.2016.09.009
+
+Periodical:Knowledge-Based Systems
+
+Keywords:Dynamic decision-making, Visualization, Data mining, Cognitive modelling, Association rules, 
+
+Title:Enhanced visual data mining process for dynamic decision-making
+
+Abstract: was performed to assess the automatic prediction results as well as the visual representations. At the end, the test of the efficiency of our process using utility and usability evaluation shows satisfactory.

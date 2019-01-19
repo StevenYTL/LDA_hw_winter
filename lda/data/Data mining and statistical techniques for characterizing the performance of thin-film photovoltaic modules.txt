@@ -1,0 +1,38 @@
+paragraph:1
+The increase in the performance of solar photovoltaic modules is a pressing issue in order to improve solar photovoltaic market share and make this industry more competitive. There are many elements where this efficiency can be achieved. The elements to be studied to better establish module performance are the key parameters given by the standard test conditions (STC) used to characterize and correct modules as defined by some international standards such as IEC 60904-3 (IEC, 1989) or IEC 61215 (IEC, 1993). The typical standard variables are temperature (25°), irradiance (1000 W/m2) and AM 1.5 spectrum. This paper is focused on the study and characterization of the spectrum (solar irradiance spectral distribution) and its influence on thin-film photovoltaic devices. The performance of these devices has a greater dependence on the spectrum than photovoltaic modules built using conventional technologies such as mono and policristalin-Si.
+
+paragraph:2
+Two standards for the AM 1.5 spectrum were defined for terrestrial use by the photovoltaic industry and the ASTM (American Society for Testing and Materials) (ASTM, 2012). The importance of this parameter lies in the fact that photovoltaic modules have a spectral response, (Martín and Ruiz, 1999), which will only allow a part of the whole solar spectral irradiance received on their surface ‘to be seen’. Spectral response is a characteristic of every cell technology. Depending on this factor a module will be able to provide more or less energy for one quantity of irradiation received. To study how solar spectral irradiance affects different cell technologies and to explain the different module performances observed, it is first necessary to have an indepth knowledge of the solar spectrum in any outdoor conditions where photovoltaic modules will be operating.
+
+paragraph:3
+Previous papers used different parameters to characterize solar spectrum. These include the Spectral Factor (SF), (Fabero and Chenlo, 1991), Mismatch Factor (M, MM or MMF), (Poissant et al., 2003), Usefull Fraction (UF), (Gottschalg et al., 2003), Photovoltaically Active Fractions (PAFs), (Berman et al., 1999), and the Average Photon Energy (APE), (Gottschalg et al., 2003). One of the reasons why solar spectrum is not among the typical variables is that measuring solar spectral irradiance involves using very expensive devices. We propose to analyze the APE as this parameter uses a single number to characterize a whole spectrum what makes easier for it to be included and treated as another meteorological variable, once calculated. The uniqueness of the relationship between the solar spectral irradiance distribution and the APE is proven, (Minemoto et al., 2009); however, these authors have proven this correspondence by dividing the values of spectral irradiance into several 50 nm bands and using these integrated spectral irradiance values. We propose a different approach, based on the use of a statistical test that enables us to use all the values of the spectrum. Moreover, the authors suggest that the results obtained should be verified with data from locations with different climatic conditions.
+
+paragraph:4
+In this study we are going to characterize the spectra at the location of Malaga, Andalusia (Spain) with a Mediterranean climate whose typical features are high humidity and mild and warm temperatures. Solar spectral irradiances have therefore been recorded at the laboratory facilities of the Solar Photovoltaic Energy group at the University of Malaga during a period of over one year. By using more than one year of data a complete range of spectrum under real working conditions is obtained and a possible seasonal effect is isolated. Once the spectrum is defined a more precise prediction of the energy produced by modules can be performed. This will result in better tools for the photovoltaic industry to size up photovoltaic plants and their integration into the power grid.
+
+paragraph:5
+One of the objectives of this paper is to determine the different types of solar spectral irradiance distribution curves and how these different curves are related to the different estimated APE values. Once these relationships are established, further goal of this paper is to analyze how the performance ratio (PR) for different photovoltaic modules is explained using the relationship found. PR values for these modules are estimated using data collected outdoors for over one year.
+
+paragraph:6
+We propose to use both statistical and data mining techniques that allows us to handle a large quantity of data in an automatic way to analyse and characterize the different APE values in our laboratory. On the one hand, we have used the well known Kolmogorov–Smirnov two sample test to check whether or not two distributions are the same (homogeneity test). On the other hand, we have used the k-means data mining technique to cluster all the estimated APEs in several clusters where all the measurements included have the same cumulative probability distribution of solar spectral irradiance.
+
+paragraph:7
+Many different areas have used clustering including text mining, statistical learning and pattern recognition, (Duda et al., 2001; Hastie et al., 2001; Jain et al., 1999). In previous papers, spectra were gathered using the APE value but data mining techniques will here be used to characterize the spectra in a few types, aimed at trying to put into the same group spectra with different values of APE but with the same relative distribution of the irradiance for each wavelength.
+
+paragraph:8
+Once the different solar spectral irradiance measurements are characterized taking into account the similarities observed, this information has been used to analyze the performance ratio of different modules for many different outdoor conditions.
+
+paragraph:9
+In the second section, a detailed description of the data set is presented. In the third section the values of performance ratio for thin-film modules of different technologies are depicted and analyzed depending on several parameters. The fourth section is dedicated to analyzing the relationship between solar spectral irradiance and APE value using statistical techniques and to characterizing the different types of spectra irradiance measured using the k-means data mining technique. The fifth section is dedicated to presenting the obtained results and discussing these results for their use in the characterization of performance ratio of thin-film photovoltaic modules. Finally, the last section summarizes the conclusions of the work.
+
+end of line !
+
+DOI:https://doi.org/10.1016/j.eswa.2013.06.059
+
+Periodical:Expert Systems with Applications
+
+Keywords:Solar spectral distribution, Photovoltaic modules, Performance ratio, Data mining, Statistical models, 
+
+Title:Data mining and statistical techniques for characterizing the performance of thin-film photovoltaic modules
+
+Abstract:-means technique estimates one centroid for each cluster that corresponds to the cumulative probability distribution function that is the most similar to the rest of the samples in the cluster. The results obtained proves that 99.98% of the functions can be considered equal to the centroid of its cluster. With these five types of functions, we have explained the changes in the performance ratio measured for thin-film photovoltaic modules of different technologies.

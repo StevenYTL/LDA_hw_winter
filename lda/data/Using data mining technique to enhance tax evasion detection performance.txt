@@ -1,0 +1,38 @@
+paragraph:1
+Tax revenue is one of the most necessary financial resources of a government for accomplishing specific goals. However, some businesses often attempt to evade their payment of correct taxes. Consequently, tax evasion creates a critical impact on the budgetary income of these businesses and of the government. These businesses incur additional social costs because they spend their valuable resources in finding means to evade taxes, rather than focus on their operations. On the side of the government, tax authorities have to bear the costs of the detection and prevention of illegal tax evasion activities. As a result, effective ways to detect related tax evasion activities have always been an important and challenging issue for tax authorities in any country.
+
+paragraph:2
+If the government cannot effectively detect illegal tax evasion activities, public investment would be negatively affected due to the budgetary shortage resulting from the loss of tax revenues. VAT (value-added tax) evasion is one of the important issues for many tax authorities. Gebauer, Nam, and Parsche (2007) report that, based on German data, the VAT revenue gap derived from the comparison of the quantified, hypothetical, and the actual collected revenues increased from 5.1% in 1995 to 7.5% in 1996. They also estimate that VAT revenue losses were approximately EURO 18 billion in 2001 for Germany alone.
+
+paragraph:3
+Gebauer et al. (2007) also suggest that VAT evasion not only leads to significant revenue losses, but also to a considerable increase in administrative costs used to detect the illegal tax evasion activities. In addition to the decreased tax revenue and increased administrative costs, VAT evasion also has a significant negative side effect on the collection of income taxes from businesses. This occurs because VAT evasion, which implies an indirectly underreported taxable income from business, is often directly accompanied by underreported sales revenues.
+
+paragraph:4
+In order to realize the benefits of spending valuable, albeit limited, resources to detect VAT evasion, tax authorities need to deploy their resources wisely. As such, tax authorities have often relied on the sampling method and the personal judgment of tax auditors in selecting suspicious tax reports to audit for potential tax evasion activities. Thus, the purpose of the current study is to determine a more scientific approach to improve tax auditor’s productivity and performance in handling the detection tasks of VAT tax evasion.
+
+paragraph:5
+All over the world, tax authorities are under increasing pressure to locate underreporting taxpayers, collect additional tax revenues, and predict the irregular behavior of non-paying taxpayers. Without the assistance of information technology tools, most tax authorities need to pull in tax data from a variety of independent sources or perform data matching and checking with other sources to find cases of non-compliance. As a result, tax evasion detection performance has been rather limited.
+
+paragraph:6
+Business intelligence (BI) in general, and data mining in particular, may be effective tools for enhancing the efficiency and effectiveness of the detection of illegal tax evasion (Fadairo, Williams, Trotman, & Onyekelu-Eze, 2008). In the US, Texas was one of the first states to apply data mining techniques for detecting suspicious tax evasion reports and thereby recoup unpaid taxes (Hoover, 2009). Songini (2004) reports that Texas uses a BI system that is able to flag a situation in which a business is suspected to be evading taxes. This suspicious tax report is referred to an audit staff for further investigation. Since the introduction and application of the BI system, USD 362 million of tax losses have already been recovered. The tax authority in Texas has also committed strongly to data mining for spotting suspicious tax reports. As cited by Songini (2004), Lisa McCormack, a manager in the tax audit division in Austin, Texas, claims, “We only audit 1% of the taxpayers… We have to try and figure out how to make the best use of the [government’s investigative] resources.”
+
+paragraph:7
+The current study intends to utilize data mining as a tool to enhance tax evasion detection performance. Data mining is a methodology used to discover hidden information from rough data (Fayyad, Piatesky-Shapiro, & Padhraic, 1996; Yoon, 1999). It can be applied in the process of decision support, prediction, forecasting, and estimation (Liao, 2003). Moreover, data mining techniques are able to efficiently handle a large number of records and data (Ravisankar, Ravi, Raghava Rao, & Bose, 2011). Compared to general statistics, data mining is able to identify certain patterns and match specific data via efficient computing technology. In other words, the interpretation of data allows flexibility (Liao, 2003).
+
+paragraph:8
+This study employs the association rule of the data mining technique to the VAT database to uncover patterns and relationships among attributes that are useful for identifying problematic tax evasion reports. In this research, a screening model will be developed based on specific patterns or rules discovered from identified VAT evasion tax reports. This screening model is utilized to select the cases that are suspected to be non-compliant VAT reports for further auditing checks. In other words, the goal of using data mining as a technique in detecting VAT evasion enhances the tax auditor’s productivity in recovering tax revenue losses.
+
+paragraph:9
+The current paper is organized as follows. After the introductory section, Section 2 provides a literature review. Section 3 illustrates the proposed framework. Sections 4 and 5 discuss the design and development of the screening model and the experimental results, respectively. Finally, Section 6 provides the conclusion, including the limitations of this study and future implications.
+
+end of line !
+
+DOI:https://doi.org/10.1016/j.eswa.2012.01.204
+
+Periodical:Expert Systems with Applications
+
+Keywords:Data mining, Value-added tax, Tax evasion, Association rule, 
+
+Title:Using data mining technique to enhance tax evasion detection performance
+
+Abstract:Currently, tax authorities face the challenge of identifying and collecting from businesses that have successfully evaded paying the proper taxes. In solving the problem of tax evaders, tax authorities are equipped with limited resources and traditional tax auditing strategies that are time-consuming and tedious. These continued practices have resulted in the loss of a substantial amount of tax revenue for the government. The objective of the current study is to apply a data mining technique to enhance tax evasion detection performance. Using a data mining technique, a screening framework is developed to filter possible non-compliant value-added tax (VAT) reports that may be subject to further auditing. The results show that the proposed data mining technique truly enhances the detection of tax evasion, and therefore can be employed to effectively reduce or minimize losses from VAT evasion.

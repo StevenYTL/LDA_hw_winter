@@ -1,0 +1,71 @@
+paragraph:1
+Fraud is a major problem for merchants, particularly in the online sector. The total revenue loss for e-commerce merchants in North America amounted to $3.5bi in 2012, which represents 0.9% of the total revenue. For orders outside of North America, the fraud rate was almost twice as high, averaging 1.6% [1].
+
+paragraph:2
+Credit-card fraud is the action of an individual who uses a credit-card for personal reasons without the consent of the owner of the credit-card and with no intention of repaying the purchase made [2]. Contrary to what many consumers believe, merchants are responsible for paying the bill when a fraudster steals goods or services in a consumer-not-present transaction, such as an online payment. A chargeback occurs when a consumer claims that he/she did not get the products or services requested, or that the order was placed by a fraudster. If the company cannot rebut this claim, the money will have to be returned to the consumer's account and the product is lost (if it has been shipped). Moreover, merchants can be subject to chargeback fees and fines from card associations if the chargeback rate is above their thresholds [3].
+
+paragraph:3
+Several technologies have been used to prevent fraud from happening, such as the Address Verification System (AVS), Chip and Pin verification and Card Verification Code (CVV). However, even these advanced systems are prune to fail. The development of fraud detection methods is thus of crucial importance.
+
+paragraph:4
+Fraud detection is a challenging problem because fraudsters make their best efforts to make their behaviour look legitimate. Another difficulty is that the number of legitimate records is far greater than the number of fraudulent cases. Such unbalanced sets require additional precautions from the data analyst. The key for accurate fraud detection lies in developing dynamic systems that can adapt to new fraud patterns [4]. Fraud detection must therefore evolve continuously, faster than fraudsters.
+
+paragraph:5
+This problem has been addressed in different contexts (credit-card transactions, credit application, telecommunications) with multiple approaches [3]: •identity proofing, which has the aim of verifying the customer's identity using publicly available data or making a phone call;•guaranteed payments, such as merchandise insurance or authentication services, provided by card associations in exchange for a fee;•expert-rules, including all the techniques based on rules created from the experience of fraud analysts (e.g. positive and negative lists of users);•data sharing, which consists in acquiring information about the customer from an external provider or social network monitoring;•technology services, such as biometrics systems or the detection of the use of proxy servers; and•data mining techniques that take into account past transactions to estimate the probability of a new transaction being fraudulent.
+
+paragraph:6
+identity proofing, which has the aim of verifying the customer's identity using publicly available data or making a phone call;
+
+paragraph:7
+guaranteed payments, such as merchandise insurance or authentication services, provided by card associations in exchange for a fee;
+
+paragraph:8
+expert-rules, including all the techniques based on rules created from the experience of fraud analysts (e.g. positive and negative lists of users);
+
+paragraph:9
+data sharing, which consists in acquiring information about the customer from an external provider or social network monitoring;
+
+paragraph:10
+technology services, such as biometrics systems or the detection of the use of proxy servers; and
+
+paragraph:11
+data mining techniques that take into account past transactions to estimate the probability of a new transaction being fraudulent.
+
+paragraph:12
+Some of these approaches involve obtaining additional information (at a given cost), while others make use of the existing data. The latter can be divided in two main categories: manual (such as identity proofing) and automatic (mostly data mining). When large volumes of data are involved, pure manual detection becomes impractical. Therefore, data mining techniques are imperative. Many authors have explored these techniques with data from banking and credit-card operations  [4–11], with a focus on supervised methods, such as artificial neural networks, support vector machines and logistic regression. To the best of our knowledge, only one study [12] has examined this problem from the perspective of an e-commerce merchant. An important difference to the banking sector is that a single online retailer has very limited information about the customer it is doing business with. Moreover, few authors have dealt with the discussion of practical aspects such as which data to use. A comprehensive survey [13] points out that only seven studies had claimed to have been implemented in practice by 2010. Since then, we found two more practical implementations. However, none of them has considered the combination of data mining and manual revision in the whole system. Indeed, Ngai et al. [14] conclude that the most urgent challenge facing fraud detection is “to bridge the gap between practitioners and researchers”, and that “research should direct its attention towards finding more practical principles and solutions for practitioners to help them to design, develop, and implement data mining and business intelligence systems”.
+
+paragraph:13
+This paper reports the development and implementation of a fraud detection system in a large e-tail merchant (for confidentiality reasons the name of the company will not be disclosed). The system explores the combination of manual and automatic classification, based on real data from the company case study. The final system is evaluated and compared to current practice. Our work thus contributes to the literature in the following ways: •providing a case study from e-tail, which has important differences when compared to the well studied banking sector;•exploring the combination of an automatic classifier with manual revision;•giving a practical perspective on the complete process of developing such a solution, including how to select, collect, label and transform data;•showing a comparison of different supervised learning methods; and•describing the practical deployment at an e-tail company.
+
+paragraph:14
+providing a case study from e-tail, which has important differences when compared to the well studied banking sector;
+
+paragraph:15
+exploring the combination of an automatic classifier with manual revision;
+
+paragraph:16
+giving a practical perspective on the complete process of developing such a solution, including how to select, collect, label and transform data;
+
+paragraph:17
+showing a comparison of different supervised learning methods; and
+
+paragraph:18
+describing the practical deployment at an e-tail company.
+
+paragraph:19
+We followed the methodology suggested by the Cross Industry Standard Process for Data Mining [15]. At first, we gained understanding of the key business concepts and objectives involved. We had interviews with the involved parties at the company and shadowed the fraud analysts at work. The second step involved building the data set of orders history. An exploratory statistical analysis followed, where we identified possible patterns of fraud by looking at individual variable distributions. The outcome was a report which could be presented to the fraud analysts to guide them in their revision process. The third step consisted in data preparation. The variables which could not be included in the deployed model were left out; the rest was transformed and standardized, to be used by machine learning algorithms. We have trained, tested, parameterised and compared three distinct algorithms: logistic regression, random forests and support vector machines. Lastly, we have evaluated the results and deployed the solution at the company.
+
+paragraph:20
+The remainder of this document is organised in six more sections. Section 2 introduces the case study and the proposed approach. Section 3 presents an overview of the data mining methods for fraud detection found in the literature, including supervised and unsupervised learning approaches, giving context to our selection of techniques to test. Section 4 details the many steps taken to collect and prepare the data. Section 5 discusses the different models, their evaluation and cross-validation, providing already an estimation of the final performance. Section 6 explains the challenges in deploying the solution and the first results. Finally, Section 7 presents conclusions and suggestions for future work.
+
+end of line !
+
+DOI:https://doi.org/10.1016/j.dss.2017.01.002
+
+Periodical:Decision Support Systems
+
+Keywords:00-01, 99-00, Fraud detection, Credit-card, Online retail, Supervised learning, Practical implementation, 
+
+Title:A data mining based system for credit-card fraud detection in e-tail
+
+Abstract:Credit-card fraud leads to billions of dollars in losses for online merchants. With the development of machine learning algorithms, researchers have been finding increasingly sophisticated ways to detect fraud, but practical implementations are rarely reported. We describe the development and deployment of a fraud detection system in a large e-tail merchant. The paper explores the combination of manual and automatic classification, gives insights into the complete development process and compares different machine learning methods. The paper can thus help researchers and practitioners to design and implement data mining based systems for fraud detection or similar problems. This project has contributed not only with an automatic system, but also with insights to the fraud analysts for improving their manual revision process, which resulted in an overall superior performance.

@@ -1,0 +1,26 @@
+paragraph:1
+This paper discusses the origin, current state of research and applications in the area of Data Mining (DM) of one extension of fuzzy sets and logic, called Intuitionistic Fuzzy Set (IFS) and Logics (IFLs).
+
+paragraph:2
+The first researches, related to IFLs started in 1983 together with the researches on IFSs, but the first publications in this area were dated 1988–1990. In them, shortly, ideas for intuitionistc fuzzy propositional calculus [5], intuitionistic fuzzy predicate logic [8], intuitionistic fuzzy modal logic [6] and temporal intuitionistic fuzzy logic [9] are introduced. During the following 25 years, there areas were essentially extended. A lot of operations and operators were defined, but up to now there is not an altogether and systematic description of the obtained results. The present paper contains some basic ideas and some unsolved problems in the area of IFLs that will develop this part of fuzzy sets theory.
+
+paragraph:3
+The IFSs [13,21] are defined as extensions of the ordinary fuzzy sets [115], but over them, a lot of operators are defined, that do not exist in the theories of the other types of sets. These operators have analogous in IFLs.
+
+paragraph:4
+The additional component in the IFS- and IFL-definitions give more and larger evaluating possibilities and determine the place of the IFSs and IFLs among the separate types of fuzzy sets. In the last twenty-five years the IFSs are being used for evaluating of processes in a lot of areas, e.g. of Systems Theory, Artificial Intelligence (AI) and Intelligent Systems, medicine, chemical industry, ecology, etc.
+
+paragraph:5
+Here we give the basic notions from the area of IFLs, describe some its applications in the AI and the benefits of this, and discuss the possibilities for application of the IFLs as tools for evaluating of Data Mining-processes.
+
+end of line !
+
+DOI:https://doi.org/10.1016/j.knosys.2015.01.015
+
+Periodical:Knowledge-Based Systems
+
+Keywords:Artificial intelligence, Data Mining, Intuitionistic fuzzy estimation, Intuitionistic fuzzy logics, Intuitionistic fuzzy set, 
+
+Title:Intuitionistic fuzzy logics as tools for evaluation of Data Mining processes
+
+Abstract:years, different intuitionistic fuzzy tools have been used for evaluation of objects from the area of the Artificial Intelligence, as expert systems (having, e.g. facts and rules, with intuitionistic fuzzy degrees of validity and non-validity), decision making processes (having, e.g. intuitionistic fuzzy estimations of the criteria), neural networks, pattern recognitions, metaheuristic algorithms, etc. Short review of these legs of research is offered, with some concrete ideas of possible new directions of study. On this basis, a non-formal discussion is raised on the benefits of applying various elements of intuitionistic fuzzy logics as tools for evaluation of Data Mining processes.

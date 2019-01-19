@@ -1,0 +1,62 @@
+paragraph:1
+Figurative language (FL) comprises irony, sarcasm, satire, parody, etc [1]. The study on the inter-relation between irony, satire, and parody can be found in [2]. The irony is often found in two forms like verbal and situational. In verbal irony, a speaker intends to express opposite meaning of what is being said. Situational irony implies to contradictory, juxtapositions, coincidences, counterfactuals, hypocrisy, etc. [1]. Satire and parody are two sub-types of irony and generally used for the same intention [3]. On the one hand, satire is mainly used to criticize an entity without explicitly mentioning its name or identity [1,4]. Here, an entity may refer to an institution, one or more individuals, social customs, actions, or beliefs [1]. On the other hand, parody is used to mimic or imitate an individual, who is being attacked with exaggerative act [5]. Moreover, another figurative device, called Sarcasm, is made up of positive words with negative intent and attacks target sharply. According to the Oxford dictionary1 sarcasm is “The use of irony to mock or convey contempt.”2 The line between irony and sarcasm is very thin; hence linguists are often confused with these two terms.
+
+paragraph:2
+FL is an integral part of any literal language. Due to the evolution of social media, the figurative language proliferated around us in various forms of online text such as forums [6], customer reviews [7], news [8], interviews [9], tweets [10], etc. Automatically, detecting FL is a quite cumbersome task, and hence, became a hot topic for linguistic and computational intelligence communities nowadays. Satiric and humorous content are often found in indirect speech, which should not be confused with a grammatical construct with the same name. An indirect speech contains sophisticated content, which implicitly conveys its message. Dealing with these kinds of contents found numerous applications in various areas such as psychology, philosophy, linguistics, cognitive science, sentiment analysis, etc. [1,10–12]. Some of the sentiment analysis tasks like review summarization [11,13], sentiment classification [14–17], etc. are severely affected by ironic and satiric content [3].
+
+paragraph:3
+Ravi and Ravi [11] reported that figurative speech involving irony, sarcasm, and satire are inherent parts of customer reviews. These figurative devices often introduce vagueness in the polarity of reviews, hence, severely affect the quality of the results of sentiment analysis. They also indicated that more rigorous experiments including appraisal theory based approaches could improve upon the obtained results. Journalist, Cartoonist, critics, etc. often use the satirical news to criticize and expose a political movement, an event, an individual, a product item, etc. The satirical news is a brilliant medium to point out flaws available in particular customs, rituals, policies, and regulations also. The satirical content often contains metaphor, analogy, ambiguity, and funny jokes, etc. [11,18]. A satirical text, a clever arrangement of words, can criticize attributes or behaviors of an entity with/without naming a particular object. However, the irony is used to deny what has been literally said [3].
+
+paragraph:4
+In this study, we experimented with satiric news in the context of India and America as well as ironic reviews written on www.amazon.com. To see how satiric news looks like, let us consider some examples of the satiric news taken from my.fakingnews.firstpost.com.3“…How to knot the tie should be a compulsory course as part of training curriculum and like fire drill, this should be repeated every quarter. Second, during campus placement and off campus recruitments, the interviewer should ask and check whether the job aspirant knows how to knot the tie? … ”
+
+paragraph:5
+“…How to knot the tie should be a compulsory course as part of training curriculum and like fire drill, this should be repeated every quarter. Second, during campus placement and off campus recruitments, the interviewer should ask and check whether the job aspirant knows how to knot the tie? … ”
+
+paragraph:6
+It was written in the context of the announcement of allowing informal dress in the office by a software company in India. This example attacks a newly formed rule in the software industry without mentioning the name of the enterprise. Let us consider one more example:
+“Hisar. It has been more than 7 days since Haryana police is camping outside the Ashram of Rampal, the self-styled Godman. Unable to break the resistance of his supporters and enter the premise, Police has finally asked for help from self-styled expert in such matters, Inspector Daya. Rampal asking his supporters to push the door from inside. ACP Pradyuman confirmed the reports and assured that he will send inspector Daya to break open the door the way he always does. …”
+
+paragraph:7
+“Hisar. It has been more than 7 days since Haryana police is camping outside the Ashram of Rampal, the self-styled Godman. Unable to break the resistance of his supporters and enter the premise, Police has finally asked for help from self-styled expert in such matters, Inspector Daya. Rampal asking his supporters to push the door from inside. ACP Pradyuman confirmed the reports and assured that he will send inspector Daya to break open the door the way he always does. …”
+
+paragraph:8
+In this example, the satiric device is used to mock the “Haryana police”. In order to target “Haryana police”, the author suggested seeking help from the television serial characters like “Inspector Daya” and “ACP Pradyuman”, which is literally making fun of the policing system of the given state. Let us see one more example from my.fakingnews.firstpost.com:
+“… Holi: a Hindu festival of colors and secular festival of saving water.”
+
+paragraph:9
+“… Holi: a Hindu festival of colors and secular festival of saving water.”
+
+paragraph:10
+In the first example, the first part of the sentence, “a Hindu festival of colors”, is the literal language, whereas the second part, “secular festival of saving water.” is used to contempt the existing customs by presenting the opposite of the reality. Since water is used in celebration of ‘Holi’. Some satiric news from Burfoot and Baldwin [8] are presented below:
+“… Winning is not everything in sport. How ‘close’ does a team come to winning or drawing a test match is equally important.”“Brazilian Judge awarded prize from Hitler Commemoration Institute”“Syria attends mideast peace talks for free continental breakfast”
+
+paragraph:11
+“… Winning is not everything in sport. How ‘close’ does a team come to winning or drawing a test match is equally important.”
+
+paragraph:12
+“Brazilian Judge awarded prize from Hitler Commemoration Institute”
+
+paragraph:13
+“Syria attends mideast peace talks for free continental breakfast”
+
+paragraph:14
+In these sentences, we can easily see the intention of the writer to ridicule on some sports’ result, Brazilian Judge, and Syria. Some of the specific properties of irony are the maxim of quality cooperative principle[19], echoic mention[20], pretence[12], the graded salience hypothesis[21], the fallacy of equivocation[22], etc. The maxim of quality cooperative principle indicates that the speaker doesn't have sufficient evidence about what he said or what he speaks seems to be false. According to echoic mention, the speaker tacitly dissociates herself from an attributed utterance or thought. Under pretence, the irony speaker expects his audience to recognize the mocking or critical attitude behind him. The ironic speaker often crafts his utterances and highlights an expectation that has been violated by the target [23]. A few studies handled some of these features as described in Section 2. All these features together make irony and satire detection a difficult task.
+
+paragraph:15
+Hence, we proposed a generic approach to automatically detect ironic content, and it's an important subtype satire [3]. After sufficient pre-processing of the raw content, we invoked from machine learning techniques. In this regard, we proposed a novel automated method for figurative content detection using an ensemble of unigrams, semantic, psycholinguistic, and statistical features and data mining techniques. The ensembled feature subset is fed as an input to a host of binary classifiers to determine satiric news and ironic customer reviews. Moreover, we extracted interesting features of satiric news and ironic reviews, which make them satiric or ironic. We also highlighted what kinds of features of satire and irony are common.
+
+paragraph:16
+This remainder of the paper is organized as follows: Section 2 presents the literature survey of studies related to detection of figurative speech. Section 3 presents the proposed approach. The experimental setup is described in Section 4. Results and discussion are presented in Section 5. Human evaluation is presented in Section 6. The paper is concluded with some future research directions in Section 7.
+
+end of line !
+
+DOI:https://doi.org/10.1016/j.knosys.2016.12.018
+
+Periodical:Knowledge-Based Systems
+
+Keywords:Satiric news, Satire detection, Irony detection, Customer reviews, Ensembled feature subset selection, Sentiment analysis, LIWC, TAALES, 
+
+Title:A novel automatic satire and irony detection using ensembled feature selection and data mining
+
+Abstract:), which were extracted from three corpora. Of particular significance is the comparison of our approach with human annotators' evaluations, which served as a baseline in these tasks.

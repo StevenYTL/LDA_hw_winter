@@ -1,0 +1,44 @@
+paragraph:1
+All enterprises especially SMEs need to think about global dimensions of their business earlier than ever. Especially in developing countries, in addition to the administrative insufficiencies, competition, economical conditions, the permanent threat towards SMEs from globalization, and financial crisis have caused distress and affect firms’ performance.
+
+paragraph:2
+SMEs are defined as enterprises in the non-financial business economy (NACE, Nomenclature statistique des activités économiques dans la Communauté européenne (Statistical classification of economic activities in the European Community)) that employ less than 250 persons. The complements of SMEs – enterprises that employ 250 or more persons – are large scale enterprises (LSEs). Within the SME sector, the following size-classes are distinguished:•Micro enterprises, employing less than 10 persons.•Small enterprises, employing at least 10 but less than 50 persons.•Medium-sized enterprises that employ between 50 and 250 persons.
+
+paragraph:3
+Micro enterprises, employing less than 10 persons.
+
+paragraph:4
+Small enterprises, employing at least 10 but less than 50 persons.
+
+paragraph:5
+Medium-sized enterprises that employ between 50 and 250 persons.
+
+paragraph:6
+This definition is used for statistical reasons. In the European definition of SMEs two additional criteria are added: annual turnover should be less than 50 million €, and balance sheet total should be less than 43 million € (Commission Recommendation, 2003/361/EC).
+
+paragraph:7
+SMEs play a significant role in all economies and are the key generators of employment and income, and drivers of innovation and growth. Access to financing is the most significant challenges for the creation, survival and growth of SMEs, especially innovative ones. The problem is strongly exacerbated by the financial and economic crisis as SMEs have suffered a double shock: a drastic drop in demand for goods and services and a tightening in credit terms, which are severely affecting their cash flows (OECD, 2009). As a result, all these factors throw SMEs in financial distress.
+
+paragraph:8
+The failure of a business is an event which can produce substantial losses to all parties like creditors, investors, auditors, financial institutions, stockholders, employees, and customers, and it undoubtedly reflects the economics of the countries concerned. When a business with financial problems is not able to pay its financial obligations, the business may be driven into the situation of becoming a non-performing loan business and, finally, if the problems cannot be solved, the business may become bankrupt and forced to close down. Those business failures inevitably influence all businesses as a whole. Direct and indirect bankruptcy costs are incurred which include the expenses of either liquidating or an attempting to reorganize businesses, accounting fees, legal fees and other professional service costs and the disaster broadens to other businesses and the economics of the countries involved (Ross, Westerfield, & Jordan, 2008; Terdpaopong, 2008; Warner, 1977).
+
+paragraph:9
+The awareness of factors that contribute to making a business successful is important; it is also applicable for all the related parties to have an understanding of financial performance and bankruptcy. It is also important for a financial manager of successful firms to know their firm’s possible actions that should be taken when their customers, or suppliers, go into bankruptcy. Similarly, firms should be aware of their own status, of when and where they should take necessary actions in response to their financial problems, as soon as possible rather than when the problems are beyond their control and reach a crisis.
+
+paragraph:10
+Therefore, to bring out the financial distress risk factors into open as early warning signals have a vital importance for SMEs as all enterprises. There is no specific method for total prevention for a financial crisis of enterprises. The important point is to set the factors that cause the condition with calmness, to take corrective precautions for a long term, to make a flexible emergency plan towards the potential future crisis.
+
+paragraph:11
+The aim of this paper is to present an EWS model based on data mining. EWS model was developed for SMEs to detect risk profiles, risk indicators and early warning signs. Chi-Square Automatic Interaction Detector (CHAID) Decision Tree Algorithm was in the study as a data mining method. Remaining of this paper is organized as follows: Section 2 presents definition of EWS. Section 3 contains data mining model for risk detection and early warning system. Implementation of data mining for risk detection and early warning signals is presented in Section 4. Concluding remarks and strategies were suggested in Section 5.
+
+end of line !
+
+DOI:https://doi.org/10.1016/j.eswa.2011.12.021
+
+Periodical:Expert Systems with Applications
+
+Keywords:CHAID, Data mining, Early warning systems, Financial risk, Financial distress, SMEs, 
+
+Title:Financial early warning system model and data mining application for risk detection
+
+Abstract:One of the biggest problems of SMEs is their tendencies to financial distress because of insufficient finance background. In this study, an early warning system (EWS) model based on data mining for financial risk detection is presented. CHAID algorithm has been used for development of the EWS. Developed EWS can be served like a tailor made financial advisor in decision making process of the firms with its automated nature to the ones who have inadequate financial background. Besides, an application of the model implemented which covered 7853 SMEs based on Turkish Central Bank (TCB) 2007 data. By using EWS model, 31 risk profiles, 15 risk indicators, 2 early warning signals, and 4 financial road maps has been determined for financial risk mitigation.

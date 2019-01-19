@@ -1,0 +1,23 @@
+paragraph:1
+During recent years many approaches were introduced as data mining methods for pattern recognition in biological database. Bioinformatics employs computational and data processing technologies to develop methods, strategies and programs that permit to handle, order and study the immense quantity of biological data that have been generated and are currently generated.
+
+paragraph:2
+To this aim, the computational linguistics has received considerable attention in bioinformatics. The study in Searls et al. (1999) indicated that a relation exists between formal languages theory and DNA. Being the linguistic view of DNA sequences, a rich source of ideas to model strings with correlated symbols. Most of the work (Jiménez-Montaño, 2009; Jiménez-Montaño, Feistel, & Diez-Martínez, 2010) has involved examinations of the occurrences of “words” in DNA. Searls and Dong (1993) found that such a linguistic approach proves useful not only in theoretical characterization of certain structural phenomena in sequences, but also in generalized pattern recognition in this domain, via parsing. The information represented on sequences involves grammatical inference for pattern recognition.
+
+paragraph:3
+In this work a novel data mining process is described that combines hybrid techniques of association analysis and classical sequentiation algorithms of genomics to generate grammatical structures of a specific language. Subsequently, these structures are converted to Context-Free Grammars (CFG). Initially the method applies to context-free languages with the possibility of being applied to other languages: structured programming, the language of the book of life expressed in the genome and proteome and even the natural languages.
+
+paragraph:4
+We used an application of the compiler generator so named GAS 1.0 system (López, Sánchez, Alonso, & Moreno, 2009), that represents an Integrated Development Environment (IDE) which allow the development of a practical application within the area for the automatic generation of language-based tools, that starts from the traditional solutions and facilitates the use of formal language theory in other disciplines: Grammar-Based Systems (GBSs) (Mernik, Crepinsek, Kosar, Rebernak, & Zumer, 2004). The tool allows measuring the complexity of the obtained grammar automatically from textual data.
+
+end of line !
+
+DOI:https://doi.org/10.1016/j.eswa.2011.08.058
+
+Periodical:Expert Systems with Applications
+
+Keywords:Grammatical inference, Bioinformatic, Free Context Grammar, DNA, Sequential patterns, 
+
+Title:Data mining for grammatical inference with bioinformatics criteria
+
+Abstract:, where the concepts of the language analysis are applied to other disciplines, like bioinformatic. The tool allows measuring the complexity of the obtained grammar automatically from textual data.

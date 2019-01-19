@@ -1,0 +1,26 @@
+paragraph:1
+Today, data driven decision making is considered as the cornerstone of modern organizational strategy. It involves the mining of large volumes of data, in the quest for discovering nuggets of knowledge. In recent years Data Mining practitioners and researchers (e.g. CRISP-DM; Cios, Teresinska, Konieczna, Potocka, & Sharma, 2000; Kurgan & Musilek, 2006; Shearer, 2000) have recognized the need for formal Data Mining process models that prescribes the journey from converting data into knowledge. Kurgan and Musilek (2006), noted with regards to Data Mining “Before any attempt can be made to perform the extraction of this useful knowledge, an overall approach that describes how to extract knowledge needs to be established”. The Knowledge Discovery and Data Mining (KDDM) process is a multiphase process that includes: business understanding (also sometimes referred to as domain understanding), data preparation, modeling, evaluation and deployment or implementation phases (see Fig. 1). The KDDM process is highly iterative and complex, as each phase involves multiple tasks, and there are numerous intra-phase and inter-phase dependencies that exist between the various tasks of the process.
+
+paragraph:2
+Fig. 1. Typical view of KDDM process models.
+
+paragraph:3
+Several KDDM process models have been proposed by researchers and practitioners. Examples include, Fayyad, Piatetsky-Shapiro, Smyth, and Uthurusamy (1996), Cabena, Hadjinian, Stadler, and Verhees (1998), Cios et al. (2000), CRISP-DM (2003), and Berry and Linoff (1997). In a poll conducted by KDNuggets, 42% of the respondents chose CRISP-DM is the main methodology used by them for Data Mining (KDNuggets, 2007).
+
+paragraph:4
+Sharma and Osei-Bryson (2010) identified some significant limitations in existing KDDM process models and presented an integrated KDDM (IKDDM) process model to address these limitations. Since a KDDM process model is a design artifact, it should be subjected to formal evaluation as such an evaluation provides essential feedback which can then be used to refine the given artifact. It should be noted that to-date there has be no published research studies on formal evaluation of any of the KDDM process models. In this paper, we follow the methodology of Hevner, March, Park, and Ram (2004) to present the results of the formal evaluation of the static qualities of the IKDDM process model. We also compare the performance of the IKDDM process model with that of the CRISP-DM process model.
+
+paragraph:5
+The rest of the paper is organized as follows: Section 2 provides an overview of the KDDM process and includes a discussion on several serious limitations with previously proposed KDDM process models; Section 3 describes the measurement instrument used for comparing the quality of the IKDDM process model versus the CRISP-DM process model. Section 4 presents our evaluation methodology and the statistical results of the analytical testing and Section 5 presents a discussion of significant findings.
+
+end of line !
+
+DOI:https://doi.org/10.1016/j.eswa.2012.02.044
+
+Periodical:Expert Systems with Applications
+
+Keywords:Evaluation, Knowledge Discovery and Data Mining (KDDM) process models, CRISP-DM, IKDDM, Analytical testing, 
+
+Title:Evaluation of an integrated Knowledge Discovery and Data Mining process model
+
+Abstract:Data Mining projects are implemented by following the knowledge discovery process. This process is highly complex and iterative in nature and comprises of several phases, starting off with business understanding, and followed by data understanding, data preparation, modeling, evaluation and deployment or implementation. Each phase comprises of several tasks. Knowledge Discovery and Data Mining (KDDM) process models are meant to provide prescriptive guidance towards the execution of the end-to-end knowledge discovery process, i.e. such models prescribe how exactly each one of the tasks in a Data Mining project can be implemented. Given this role, the quality of the process model used, affects the effectiveness and efficiency with which the knowledge discovery process can be implemented and therefore the outcome of the overall Data Mining project. This paper presents the results of the rigorous evaluation of the Integrated Knowledge Discovery and Data Mining (IKDDM) process model and compares it to the CRISP-DM process model. Results of statistical tests confirm that the IKDDM leads to more effective and efficient implementation of the knowledge discovery process.

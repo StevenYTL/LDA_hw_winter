@@ -1,0 +1,51 @@
+paragraph:1
+Cholera remains a major public health problem in developing countries. More than fifty countries in the world suffer cholera outbreaks with an average of 200,000 cases and lethality rate of 4% (Piarroux, 2002). There is no effective vaccine included in the WHO vaccination programs (Fournier, 1996). Mali located in the heart of West Africa is no exception to the rule. Noting that the geographical factor plays a major role in this epidemic, because in 78% of cases people were the bathing takes place in the lakes, streams or rivers according to a study by Dao et al. (2009), particularly in wintering periods. Indeed, all outbreak areas are located along the Niger River crosses Mali on its length South to the North. The progression of the epidemic has occurred in the flow direction of the West River Country to the North.
+
+paragraph:2
+The infectious diseases are gaining more ground every year thus increasing the risk of epidemics. They have in common small organisms, often arthropods (virus, mosquitoes, flies, ticks, lice or fleas), which are called vectors because they transmit the infectious agent from one host to another. The distribution area of these vectors is progressively expanding, with climate change opening up some possibilities for the reappearance of disease in previously protected populations. Sometimes new vulnerable regions are thus seriously affected.
+
+paragraph:3
+To overcome the limitations of traditional techniques to fight against epidemics, it is necessary to enjoy the benefits of space technology in the fight and the stalking of infectious diseases. The potential advantages of the space technology are numerous:
+•Economics: satellites cover a large area without long travel of the field teams,•Security: the satellites cover dangerous or inaccessible areas,•Dynamics: decryption of the spatiotemporal dynamics of diseases,•Monitoring: provision of risk maps and epidemiological surveillance platform for better monitoring and anticipation of epidemics.
+
+paragraph:4
+Economics: satellites cover a large area without long travel of the field teams,
+
+paragraph:5
+Security: the satellites cover dangerous or inaccessible areas,
+
+paragraph:6
+Dynamics: decryption of the spatiotemporal dynamics of diseases,
+
+paragraph:7
+Monitoring: provision of risk maps and epidemiological surveillance platform for better monitoring and anticipation of epidemics.
+
+paragraph:8
+Epidemiology turns to space using remote sensing satellite technology through Tele-epidemiology. Tele-epidemiology associates satellite observation data (geographical, climatological, environmental, land use, etc.) with data sets from multidisciplinary areas (health data, temperature or humidity, socioeconomic data, biological readings, etc.) (Marechal, Ribeiro, Lafaye, & Guell, 2008). That allows to analyse the mechanisms of emergence, propagation and transmission of epidemic diseases, firstly, by investigating the tripartite relationships Climate–Environment–Health, and secondly, by updating the links that exist between the epidemic diseases and the environment in which they develop, using remote sensing satellite technology (Lacaux, Tourre, Vignolles, Ndione, & Lafaye, 2007).
+
+paragraph:9
+Statistical and non-statistical products have been developed to facilitate the work of epidemiologists: quantification of the cases of disease, identification of the factors characteristic of the affected areas, identification of the high risk areas, development of forecasting models, management of prevention programmes, etc. Remote sensing has a rising significance in the current information and communication society.
+
+paragraph:10
+The purpose of this work is to demonstrate the link between the geographical factor of the Niger River and the spread of the cholera epidemic in affected communities using satellite images and field data processed by data mining techniques. Thus this work contributes to strengthening epidemiological surveillance policy that focuses on a particular area of Mali and generally in the countries concerned about the production of images representing maps of risk areas of epidemics.
+
+paragraph:11
+The processing of remote sensing of satellite data by data mining techniques presents a major challenge in the health sector, especially in epidemiology. Data mining is a process for automatic information discovery in large databases (Tan, Steinbach, & Kumar, 2005). Data mining technique allow to extract previously unknown patterns that can generate interesting knowledge (Fayyad, Piatetsky-Shapiro, & Smyth, 1996), such as risk areas (through risk maps) from huge databases of satellite images. These patterns can be seen as a kind of summary of the input data, and will be used in further analysis to predict other cases, for instance expand the production of risk maps of epidemic on the whole national territory.
+
+paragraph:12
+The three main phases of data mining are pre-treatment, treatment, and post-treatment. Most of the work of data mining lies in the post and pre-processing data: 80% post and pre-processing data, and 20% data mining techniques (application of algorithms) (Qin, Zhang, Zhu, Zhang, & Zhang, 2009; Zhang, Chengqi, & Qiang, 2003). Most data mining algorithms do not know how to handle numerical data but rather categorical data. To solve this problem, it is necessary to discretize numerical data. The discretization, is the process to convert numerical values into categorical values and it is positioned in the pre-processing data phase. The discretization is one of the current problems of data mining because it has much more impact on the results and therefore easily leads to misinterpretations.
+
+paragraph:13
+The structure of the rest of the paper is as follow. We present theoretical background in Section 2, with an additional literature review in Section 3. Our novel methodology and techniques adopted are presented in Section 4. Section 5 presents experimental results and Section 6 gives some discussions and finally Section 7 provides concluding remarks.
+
+end of line !
+
+DOI:https://doi.org/10.1016/j.eswa.2016.10.010
+
+Periodical:Expert Systems with Applications
+
+Keywords:Data mining, Discretization, Remote sensing, Risk identification, Knowledge, 
+
+Title:Data mining techniques on satellite images for discovery of risk areas
+
+Abstract:The high rates of cholera epidemic mortality in less developed countries is a challenge for health facilities to which it is necessary to equip itself with the epidemiological surveillance. To strengthen the capacity of epidemiological surveillance, this paper focuses on remote sensing satellite data processing using data mining methods to discover risk areas of the epidemic disease by connecting the environment, climate and health. These satellite data are combined with field data collected during the same set of periods in order to explain and deduct the causes of the epidemic evolution from one period to another in relation to the environment. The existing technical (algorithms) for processing satellite images are mature and efficient, so the challenge today is to provide the most suitable means allowing the best interpretation of obtained results. For that, we focus on supervised classification algorithm to process a set of satellite images from the same area but on different periods. A novel research methodology (describing pre-treatment, data mining, and post-treatment) is proposed to ensure suitable means for transforming data, generating information and extracting knowledge. This methodology consists of six phases: (1.A) Acquisition of information from the field about epidemic, (1.B) Satellite data acquisition, (2) Selection and transformation of data (Data derived from images), (3) Remote sensing measurements, (4) Discretization of data, (5) Data treatment, and (6) Interpretation of results. The main contributions of the paper are: to establish the nature of links between the environment and the epidemic, and to highlight those risky environments when the public awareness of the problem and the prevention policies are absolutely necessary for mitigation of the propagation and emergence of the epidemic. This will allow national governments, local authorities and the public health officials to effective management according to risk areas. The case study concerns the knowledge discovery in databases related to risk areas of the cholera epidemic in Mopti region, Mali (West Africa). The results generate from data mining association rules indicate that the level of the Niger River in the wintering periods and some societal factors have an impact on the variation of cholera epidemic rate in Mopti town. More the river level is high, at 66% the rate of contamination is high.

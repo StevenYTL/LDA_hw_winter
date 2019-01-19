@@ -1,0 +1,35 @@
+paragraph:1
+Acquired brain injury (ABI) is one of the leading causes of death and disability in the world. In Europe, brain injuries from traumatic and non-traumatic causes are responsible for more years of disability than any other cause (The Lancet Neurology, 2010). Because most of these patients are young people, their remaining functional limitations and psychosocial problems contribute significantly to health care related costs and loss of productivity.
+
+paragraph:2
+After sustaining an ABI, patients have impairments consisting of not only physical, but also cognitive, social, and behavioral limitations. The most frequently occurring cognitive sequelae after an ABI pertain to mental process slowness, attention deficits, memory impairments, and executive problems. The injury dramatically changes the life of patients and their families (Pérez et al., 2010). The rapid growth on ABI case numbers and the importance of cognitive functions in daily activities, both demand efficient programs of cognitive rehabilitation.
+
+paragraph:3
+Recovery from ABI can be facilitated with cognitive rehabilitation. Cognitive rehabilitation aims to compensate, or restore when possible, lost brain functions, improving the quality of life of the patients (Fundaci Institut Guttmann, 2008; Sohlberg & Mateer, 2001).
+
+paragraph:4
+One of the problems of the rehabilitation process is its time length, that in many cases is inadequate for a complete and effective rehabilitation. To improve and expand the cognitive rehabilitation process, automated systems for cognitive rehabilitation of patients with ABI have been recently introduced (Solana, Cáceres, Gómez, Ferrer-Celma, & Ferre-Bergada, 2011; Tormos, García-Molina, García-Rudolph, & Roig, 2009). These systems generate large amounts of data. The analysis of these data, using data mining techniques, allows us to obtain new knowledge to evaluate and improve the effectiveness of the rehabilitation process. Also using information analysis and data mining techniques, we can create predictive models and decision support systems for the treatment of patients with ABI.
+
+paragraph:5
+The data used in this study were obtained from the PREVIRNEC© platform. PREVIRNEC© is a cognitive tele-rehabilitation platform, developed over a web-based architecture based on web technologies and it’s conceived as a tool to enhance cognitive rehabilitation, strengthening the relationship between the neuropsychologist and the patient, extending the treatment duration and frequency, allowing personalization of treatment and monitoring the performance of rehabilitation tasks. PPREVIRNEC© has been developed during the past six years by the Universitat Rovira i Virgili and Technical University of Madrid (Spain), together with the Institut Guttmann Neurorehabilitation Hospital, IG (Spain) neuropsychology and research departments (Solana et al., 2011). This platform has been included in the hospital clinical protocols since 2005 and at the moment of this analysis PREVIRNEC© database stores 1120 patients, with a total of 183047 rehabilitation tasks executions.
+
+paragraph:6
+Different statistical methodologies and predictive data mining methods have been applied to predict clinical outcomes of rehabilitation of patients with ABI (Rughani et al., 2010; Ji, Smith, Huynh, & Najarian, 2009; Pang et al., 2007; Segal et al., 2006; Brown et al., 2005; Rovlias & Kotsou, 2004; Andrews et al., 2002). Most of these studies are focused in determining survival, predicting disability or the recovery of patients, and looking for the factors that are better at predicting the patient’s condition after suffering an ABI.
+
+paragraph:7
+The purpose of this study is the novel application of data mining to predict the outcomes of the cognitive rehabilitation of patients with ABI. Three algorithms were used in this study: decision tree (DT), multilayer perceptron (MLP) and a general regression neural network (GRNN). PREVIRNEC© database and IG’s Electronic Health Records (EHR) (Institut Guttmann Neurorehabilitation Hospital, 1997) has been used to test the algorithms. For assessing the algorithm’s accuracy of prediction, we used the most common performance measures: specificity, sensitivity, accuracy and confusion matrix. The results obtained were validated using the 10-fold cross-validation method.
+
+paragraph:8
+The remainder of this paper is organized as follows. Section 2 presents a brief introduction to data mining, the algorithms used in this research and a detailed description of the database. Section 3 shows the experimental results obtained. Section 4 presents a discussion of these results. Finally, Section 5 describes the summarized conclusions.
+
+end of line !
+
+DOI:https://doi.org/10.1016/j.eswa.2012.08.034
+
+Periodical:Expert Systems with Applications
+
+Keywords:Acquired brain injury, Cognitive rehabilitation, Data mining, Decision tree, Multilayer perceptron, General regression neural network, 
+
+Title:Data mining applied to the cognitive rehabilitation of patients with acquired brain injury
+
+Abstract:Acquired brain injury (ABI) is one of the leading causes of death and disability in the world and is associated with high health care costs as a result of the acute treatment and long term rehabilitation involved. Different algorithms and methods have been proposed to predict the effectiveness of rehabilitation programs. In general, research has focused on predicting the overall improvement of patients with ABI. The purpose of this study is the novel application of data mining (DM) techniques to predict the outcomes of cognitive rehabilitation in patients with ABI. We generate three predictive models that allow us to obtain new knowledge to evaluate and improve the effectiveness of the cognitive rehabilitation process. Decision tree (DT), multilayer perceptron (MLP) and general regression neural network (GRNN) have been used to construct the prediction models. 10-fold cross validation was carried out in order to test the algorithms, using the Institut Guttmann Neurorehabilitation Hospital (IG) patients database. Performance of the models was tested through specificity, sensitivity and accuracy analysis and confusion matrix analysis. The experimental results obtained by DT are clearly superior with a prediction average accuracy of 90.38%, while MLP and GRRN obtained a 78.7% and 75.96%, respectively. This study allows to increase the knowledge about the contributing factors of an ABI patient recovery and to estimate treatment efficacy in individual patients.
